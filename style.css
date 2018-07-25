@@ -1,0 +1,159 @@
+/*/ --- Don't use this styles -- /*/
+
+* {
+  margin: 0;
+}
+
+/*/ --- Don't use this styles -- /*/
+
+
+
+
+/*/ --- Start Styles from http://159.89.141.100 -- /*/
+
+#intro {
+  min-height: 600px;
+  transition: all .5s cubic-bezier(.75,.01,.41,1.03)
+}
+
+@media (min-width: 992px) {
+  #intro {
+    min-height: 800px;
+  }
+}
+
+@media (min-width: 1572px) {
+  #intro {
+    min-height: 1000px;
+  }
+}
+
+/*/ --- End Styles from http://159.89.141.100 -- /*/
+
+.scaling-svg-container {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  padding: 0;
+  overflow: hidden;
+  z-index: 0;
+  transition: all .5s cubic-bezier(.75,.01,.41,1.03)
+}
+
+@media (min-width: 992px) {
+  .scaling-svg-container {
+    height: 800px;
+  }
+}
+
+@media (min-width: 1572px) {
+  .scaling-svg-container {
+    height: 1000px;
+  }
+}
+
+.background-image {
+  position: absolute;
+  z-index: -1;
+  transform: translate(-40%,0%);
+  height: 100%;
+  transition: all .1s cubic-bezier(.75,.01,.41,1.03)
+}
+
+.tiles {
+  position: absolute; 
+  height: 100%; 
+  width: auto; 
+  left: 0; 
+  top:0;
+  transition: all .1s cubic-bezier(.75,.01,.41,1.03);
+  transform: translate(-40%,0%);
+}
+
+.background-image,
+.tiles {
+  object-fit: cover;
+}
+
+@media (min-width: 480px) {
+  .background-image,
+  .tiles {
+    transform: translate(-30%,0%);
+  }
+}
+
+@media (min-width: 680px) {
+  .background-image,
+  .tiles {
+    transform: translate(-25%,0%);
+  }
+}
+
+@media (min-width: 800px) {
+  .background-image,
+  .tiles {
+    transform: translate(-20%,0%);
+  }
+}
+
+@media (min-width: 992px) {
+  .background-image,
+  .tiles {
+    transform: translate(-17%,0%);
+  }
+}
+
+@media (min-width: 1572px) {
+  .background-image,
+  .tiles {
+    transform: translate(-7%,0%);
+  }
+}
+
+@media (min-width: 2190px) {
+  .background-image,
+  .tiles {
+    transform: translate(0%,0%);
+    
+  }
+}
+
+@media (min-width: 2300px) {
+  .background-image,
+  .tiles {
+    transform: translate(-50%,0%);
+    left: 50%;
+    width: 100vw;
+    height: auto;
+  }
+}
+
+polygon {
+  fill: transparent;
+  opacity: 0.8;
+  transition: all .25s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+
+.cls-1 {
+  fill: hsla(3, 34%, 23%, .7);
+}
+
+.cls-2 {
+  fill: hsla(57, 27%, 25%, .7);
+}
+
+.cls-3 {
+  fill: hsla(340, 23%, 20%, .7);
+}
+
+.cls-4 {
+  fill: hsla(199, 76%, 18%, .7);
+}
+
+.cls-5 {
+  fill: hsla(187, 24%, 24%, .7);
+}
+
+.cls-6 {
+  fill: hsla(41, 57%, 23%, .7);
+}
